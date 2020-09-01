@@ -258,4 +258,8 @@
   <!-- AOSPA gapps -->
   <project path="vendor/gapps" name="AOSPA/vendor_gapps" remote="gitlab" revision="quartz" clone-depth="1" />
 
+  <!-- NEOS -->
+  <project name="ihsakashi/android_vendor_neos" path="vendor/neos" remote="github" revision="neos" />
+  <project name="ihsakashi/android_system_libww" path="system/libww" remote="github" revision="master" />
+  
 </manifest>
