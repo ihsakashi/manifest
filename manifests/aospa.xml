@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" groups="aospa" />
+  <project path="manifest" name="ihsakashi/manifest" remote="github" revision="quartz" />
 
   <!-- Build repositories -->
   <remove-project name="platform/build" />
@@ -61,7 +61,7 @@
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="aospa" />
+  <project path="frameworks/base" name="ihsakashi/android_frameworks_base" remote="aospa" revision="quartz" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -149,7 +149,7 @@
   <remove-project name="platform/system/bt" />
   <project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="AOSPA/android_system_core" remote="aospa" groups="aospa" />
+  <project path="system/core" name="ihsakashi/android_system_core" remote="aospa" revision="quartz" />
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="AOSPA/android_system_extras" remote="aospa" groups="aospa" />
   <remove-project name="platform/system/libhidl" />
@@ -172,7 +172,7 @@
   <project path="system/vold" name="AOSPA/android_system_vold" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="AOSPA/android_vendor_pa" remote="aospa" groups="aospa" >
+  <project path="vendor/pa" name="ihsakashi/android_vendor_pa" remote="github" revision="quartz" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/codeaurora/telephony" />
