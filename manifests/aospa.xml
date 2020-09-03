@@ -261,5 +261,6 @@
   <!-- NEOS -->
   <project name="ihsakashi/android_vendor_neos" path="vendor/neos" remote="github" revision="neos" />
   <project name="ihsakashi/android_system_libww" path="system/libww" remote="github" revision="master" />
-  
+  <project name="ihsakashi/android_packages_apps_TermuxAPI" path="packages/apps/TermuxAPI" remote="github" revision="master" />
+
 </manifest>
