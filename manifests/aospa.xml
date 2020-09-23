@@ -59,7 +59,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" groups="aospa" />
+  <project path="frameworks/av" name="ihsakashi/android_frameworks_av" remote="aospa" revision="quartz" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="ihsakashi/android_frameworks_base" remote="aospa" revision="quartz" />
   <remove-project name="platform/frameworks/native" />
